@@ -1,6 +1,6 @@
 # List-lit-component
 
-This is a card component made with lit
+This is a list component made with lit
 
 ![](https://github.com/KikeTorillo/imagenes/blob/main/List-component.png?raw=true)
 

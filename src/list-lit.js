@@ -5,23 +5,38 @@ export class ListLit extends LitElement {
     static styles = css`
     :host{
     --color-list: white;
-    --position-items: center;
+    --border-color: black;
     }
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     ul {
         display: grid;
-        justify-content: var(--position-items);
+        grid-template-columns: 100%;
         z-index: 1;
         list-style-type: none;
         width: 32.7rem;
-        border: 2px solid #18191f;
-        box-shadow: 0px 4px 0px #18191f;
-        border-radius: 16px;
+        height: 10rem;
+        border: .2rem solid var(--border-color);
+        box-shadow: 0px 4px 0px var(--border-color);
+        border-radius: 1.6rem;
         background: var(--color-list);
-        padding-bottom: 1rem;
+        padding: .5rem;
+        overflow-y: scroll;
+      }
+      ul::-webkit-scrollbar{
+        width: 1rem;    
+        border-radius: 2.5rem;
+      }
+      ul::-webkit-scrollbar-thumb {
+        background: var(--color-list);        /* color of the tracking area */
+      }
+      ul::-webkit-scrollbar-thumb {
+        background-color: var(--border-color);    /* color of the scroll thumb */
+        border-radius: 1rem;
+        border: .2rem solid var(--color-list); 
       }
     `;
 

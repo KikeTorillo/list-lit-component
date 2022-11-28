@@ -14,6 +14,11 @@ export class ListItemLit extends LitElement {
     }
 
     static styles = css`
+    :host{
+        --position-items: center;
+        --hover-color: green;
+        --text-color: black;
+    }
     *{
         margin: 0;
         padding: 0;
@@ -22,10 +27,12 @@ export class ListItemLit extends LitElement {
     li {
         padding-top: 1rem;
         margin-left: 1rem;
+        text-align: var(--position-items);
+        color: var(--text-color);
       }
       li:hover {
         cursor: pointer;
-        color: lightcoral;
+        color: var(--hover-color);
       }
     `;
 

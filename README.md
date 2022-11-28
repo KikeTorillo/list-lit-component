@@ -2,9 +2,9 @@
 
 This is a card component made with lit
 
-![](https://raw.githubusercontent.com/KikeTorillo/imagenes/main/List-component.png?token=GHSAT0AAAAAAB3XW4DF6GSBQVNO5TMKUXSAY4FHESA)
+![](https://github.com/KikeTorillo/imagenes/blob/main/List-component.png?raw=true)
 
-![](https://raw.githubusercontent.com/KikeTorillo/imagenes/main/List-component2.png?token=GHSAT0AAAAAAB3XW4DEHOVBYFFN4CU6SFIUY4FHE5Q)
+![](https://github.com/KikeTorillo/imagenes/blob/main/List-component2.png?raw=true)
 
 ## How to install
 

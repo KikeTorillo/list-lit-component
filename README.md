@@ -14,7 +14,8 @@ npm install --save git+https://github.com/KikeTorillo/list-lit-component.git
 
 it is necesary to import the class which is saves in node modules folder
 
-import { ListLit } from "card-lit-component/src/card-lit.js";
+import { ListLit } from "list-lit-component/src/list-lit.js"
+import { ListItemLit } from "list-lit-component/src/list-item-lit.js"
 
 this web component use a Relative length unit REM so it is necesary to reset de html font size with 62.5%
 

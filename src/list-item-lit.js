@@ -17,6 +17,7 @@ export class ListItemLit extends LitElement {
     :host{
         --position-items: center;
         --hover-color: green;
+        --hover-background-color: white;
         --text-color: black;
     }
     *{
@@ -33,6 +34,7 @@ export class ListItemLit extends LitElement {
       li:hover {
         cursor: pointer;
         color: var(--hover-color);
+        background-color: var(--hover-background-color);
       }
     `;
 

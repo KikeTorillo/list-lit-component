@@ -25,6 +25,7 @@ this web component use a Relative length unit REM so it is necesary to reset de 
 - -border-color: this is the variable to allow change the border color of the container list
 - --position-items: this is the variable to allow change the position of the items which could be start, center or end.
 - --hover-color: this is the variable to allow change the hover color of the text.
+- --hover-background-color: this is the variable to allow change the hover background colorof the text
 - --text-color: this is the variable to allow change the color of the text.
 - content: this attribute is used inside of the component list-item-lit to define de content of the list item.
 
